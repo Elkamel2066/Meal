@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Yummy</title>
+        <link rel="website icon" type="png" href="image/logo.png">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/stayle-index.css">
+
+    </head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+       <div class="bar">
+        <ul class="list-unstyled text-center">
+            <a href="index.html" id="toggle2"><li>Search</li></a>
+            <a href="Categories.html"id="toggle"><li>Categories</li></a>
+            <a href="area.html"><li>Area</li></a>
+            <a href="ingredient.html"><li>Ingredients</li></a>
+            <a href="ContacUs.html"><li>Contact Us</li></a>
+          
+        </ul>    
+       </div>
+        <div class="Copyright"> 
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <h5 class="ml12" >
+                Copyright Â© 2019 All Rights Reserved.
+            </h5>
+        </div>
+      </div>
+       <section>
+       
+            <div class="logo bg-light">
+                <div> <img src="image/logo.png" alt=""></div>
+                 <span class="text-center" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                <div class="icon">
+                 <i class="fa-solid fa-globe"></i>
+                 <i class="fa-solid fa-share-nodes"></i>
+                </div>
+             </div>
+          
+             <section id="Search">
+                <div class = "container"> 
+                    <div class = "meal-wrapper">
+                          <div class = "meal-search-box ">
+                            <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
+                            <button type = "submit" class = "search-btn btn" id = "search-btn">
+                              <i class = "fas fa-search"></i>
+                            </button>
+                          </div>
+                        </div>
+                        <div class = "meal-result">
+                          <h2 class = "text-light">Your Search Results:</h2>
+                          <div id= "meal">
+                          </div>
+                        </div>
+                        <div class = "meal-details">
+                          <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+                            <i class = "fas fa-times"></i>
+                          </button>
+                          <div class = "meal-details-content">
+                          </div>
+                        </div>
+                  </div>
+                    </div>
+                  </div>
+                
+                
+             </section>
+             <section id="Categories">
+              <div class = "container">      
+                  <div id= "Category">
+                      </div>
+                    </div>
+                    <div class = "meal-Category">
+                      </div>
+             </section>
+            </div>
+       </section>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <script src="js/all.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.6.1.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
